@@ -1,0 +1,133 @@
+ .content {
+     padding: 93px 0 99px 0;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+ .content-box {
+     display: none;
+     align-items: center;
+     justify-content: center;
+     height: 112px;
+     background-color: #f4f4fd;
+     border-radius: 4px;
+     margin-bottom: 8px;
+ }
+
+ .list-ben {
+     display: flex;
+     gap: 72px;
+     flex-direction: column;
+     align-content: center;
+     justify-items: center;
+
+ }
+
+ .li-back-cards {
+     width: 288px;
+ }
+
+ .headline {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.11;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+     margin-bottom: 8px;
+     text-align: center;
+     text-transform: capitalize;
+
+ }
+
+ .text-p {
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+     font-weight: 500;
+     font-size: 16px;
+
+ }
+
+ @media screen and (min-width: 768px) {
+     .content {
+         padding: 96px 0;
+     }
+
+     .content-box {
+         display: none;
+         justify-content: center;
+         flex-direction: row;
+         flex-wrap: wrap;
+         column-gap: 24px;
+         row-gap: 72px;
+     }
+
+     .headline {
+         text-align: left;
+     }
+
+     .li-back-cards {
+         width: 356px;
+         width: calc((100% - 72px) / 4);
+     }
+ }
+
+ @media screen and (min-width: 1158px) {
+     .li-back-cards {
+         background-color: #FFFFFF;
+         column-gap: 24px;
+         width: calc((100% - 72px) / 4);
+     }
+
+     .content-box {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         position: relative;
+         width: 264px;
+         height: 112px;
+         flex-shrink: 0;
+         border-radius: 4px;
+         margin-bottom: 8px;
+         border: 1px solid #8E8F99;
+         background: #F4F4FD;
+     }
+
+     .content-icons {
+         position: absolute;
+         top: 24px;
+         left: 100px;
+     }
+
+     .list-ben {
+         display: flex;
+         gap: 24px;
+     }
+
+     .content {
+         padding: 120px 0;
+     }
+
+
+     .headline {
+         color: #2E2F42;
+         font-size: 20px;
+         font-weight: 500;
+         line-height: 1.2;
+         letter-spacing: 0.02em;
+         margin-bottom: 8px;
+     }
+
+     .text-p {
+         color: #434455;
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 1.5;
+         letter-spacing: 0.02em;
+     }
+ }
+
+  .li-back-cards{
+    width: calc((100% - 72px) / 4);
+   
+}
